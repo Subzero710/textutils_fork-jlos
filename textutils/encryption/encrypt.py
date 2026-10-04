@@ -1,4 +1,4 @@
-def encrypt(text, key=3):
+def encrypt(text, key):
     """Encrypt text using a Caesar cipher.
 
     Args:

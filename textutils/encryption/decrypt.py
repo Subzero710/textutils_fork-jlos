@@ -1,9 +1,9 @@
-def decrypt(text, key=3):
+def decrypt(text, key):
     """Decrypt text encrypted with a Caesar cipher.
 
     Args:
         text (str): The encrypted text.
-        key (int): Shift that was used during encryption.
+        key (int): Shift used during encryption.
 
     Returns:
         str: The decrypted text.
